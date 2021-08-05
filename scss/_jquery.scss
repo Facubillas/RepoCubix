@@ -1,0 +1,142 @@
+// JQUERY //
+
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+
+@media screen and (max-width:768px){ /* -- Tablet 768 -- */
+
+    .menu li{
+        display: inline-block;
+    }
+
+    .carrousel_index{
+        padding: 0 0;
+    }
+
+    .hero{
+        margin: 20px;
+        margin-left: 50px;
+    }
+
+    .contenido_perfil_index{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+        place-items: center;
+        gap: 10px;
+    }
+
+    .titulo_perfil_index{
+        font-size: 1rem;
+        color: #191919;
+    }
+
+    .botonCompra{
+        margin-left: 40px;
+    }
+
+    /*-- Marcas MOBILIE --*/ 
+
+    .contenido_marcas_index{
+        background-color: #dcdcdc;
+    }
+    
+
+    .section2_index{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+    .talle{
+        font-size: small;
+        margin-top: 30px;
+    }
+
+    .titulo_remera{
+        font-size: 20px;
+        text-align: center;
+        color: #191919;
+    }
+
+    .parrafo_remera{
+        font-size: 15px;
+        text-align: center;
+        color: #191919;
+    }
+
+    .nav-tabs{
+        margin-top: 100px;
+    }
+
+    /*-- footer MOBILIE --*/ 
+
+    .footer_index{
+        justify-content: space-around;
+    }
+}
+
+  @media only screen and (max-width:375px){ /* -- Cel 375 -- */
+
+    /*-- Habilidades MOBILIE --*/ 
+
+    .conjunto_iconos{
+        /* Flex */
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .container_hab{
+        justify-content: center;
+        }
+    
+    /*-- Marcas MOBILIE --*/ 
+
+    .section2_index{
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 400px;
+    }
+
+    .talle{
+        font-size: small;
+        margin-top: 30px;
+    }
+
+    .titulo_remera{
+        font-size: 20px;
+        text-align: center;
+        color: red;
+    }
+
+    .parrafo_remera{
+        font-size: 15px;
+        text-align: center;
+        color: $Color1N;
+    }
+
+    .nav-tabs{
+        margin-top: 100px;
+    }
+
+    /*-- Despegar MOBILIE --*/
+
+    .despega_parrafo{
+        font-size: 18px;
+        color: tomato;
+    }
+
+}
+
+
+/* ------------------------------ PRODUCTOS ------------------------------ */
+/* ------------------------------ PRODUCTOS ------------------------------ */
+
+@media screen and (max-widht: 600px) {
+    .caja_productos_solo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

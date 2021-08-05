@@ -1,0 +1,39 @@
+//  //
+
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+
+.navegacion{
+    width: 50%;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .menu {
+        li{
+        /* Flex */
+        display: inline-block; /* -- para que esten uno al lado del otro --*/
+        position: relative; /* -- para que se bajen los elementos pero con lugar --*/
+        }
+            a{
+            color: $ColorN; /* -- Color de Letras Link --*/
+            text-align: center; /* -- alinear horizontalmente --*/
+            text-decoration: none; /* -- para sacar la linea --*/
+            
+            padding: 10px;
+            /* Flex */
+            display: block;
+            border-radius: 20px;
+            flex-grow: 1;
+            }
+    }
+}
+
+li a:hover{
+    background-color: $Color2G;
+    color: $ColorN;
+}
+
+/* -------------------------- PERFIL -------------------------- */
+/* -------------------------- PERFIL -------------------------- */
+

@@ -1,0 +1,60 @@
+// ANIMACIONES //
+
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+
+.navegacion ul li a{
+    transition: all 0.3s linear; 
+}
+
+/* --------- contendio_perfil INDEX --------- */
+
+.botonQuiero{
+    transition: all 1s;
+}
+
+.botonQuiero:hover {  /* -- caja -- */
+    width: 220px;
+    font-size: 18px;
+    background-color: blue;
+}
+
+
+/* --------- contenido_habilidades INDEX --------- */
+.icono_g{
+    transition: all 1s;
+}
+
+.icono_g:hover{
+    transform: scale(2, 2);
+}
+
+/* ------------------------------ GALERIA ------------------------------ */
+/* ------------------------------ GALERIA ------------------------------ */
+
+.imagen_galeria {
+    transition: all 1s;
+}
+
+.imagen_galeria:hover {
+    transform: scale(1.1,1.1);
+    
+}
+
+/* ------------------------------ SERVICIOS ------------------------------ */
+/* ------------------------------ SERVICIOS ------------------------------ */
+
+.foto_servicios:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+/* ------------------------------ PRODUCTOS ------------------------------ */
+/* ------------------------------ PRODUCTOS ------------------------------ */
+
+.titulo_productos_subtitulo{
+    background-color: #506161;
+    font-size: x-large;
+    margin: 10px;
+    padding: 10px;
+}

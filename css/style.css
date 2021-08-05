@@ -1,0 +1,1512 @@
+@charset "UTF-8";
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+.navegacion ul li a {
+  transition: all 0.3s linear;
+}
+
+/* --------- contendio_perfil INDEX --------- */
+.botonQuiero {
+  transition: all 1s;
+}
+
+.botonQuiero:hover {
+  /* -- caja -- */
+  width: 220px;
+  font-size: 18px;
+  background-color: blue;
+}
+
+/* --------- contenido_habilidades INDEX --------- */
+.icono_g {
+  transition: all 1s;
+}
+
+.icono_g:hover {
+  transform: scale(2, 2);
+}
+
+/* ------------------------------ GALERIA ------------------------------ */
+/* ------------------------------ GALERIA ------------------------------ */
+.imagen_galeria {
+  transition: all 1s;
+}
+
+.imagen_galeria:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* ------------------------------ SERVICIOS ------------------------------ */
+/* ------------------------------ SERVICIOS ------------------------------ */
+.foto_servicios:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* ------------------------------ PRODUCTOS ------------------------------ */
+/* ------------------------------ PRODUCTOS ------------------------------ */
+.titulo_productos_subtitulo {
+  background-color: #506161;
+  font-size: x-large;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* ----------------- ESTILOS GENERALES --------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* - Para que no me sume los extras que le voy a dar - */
+}
+
+body {
+  background-size: cover;
+  font-size: 2rem;
+  line-height: 1em;
+  margin: 0;
+}
+
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+.navegacion .menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  /* -- tamaño del Link --*/
+}
+
+/* --------- contenido_perfil INDEX --------- */
+.titulo_perfil_index {
+  /* ----- titulo -----  */
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+  color: #103c8d;
+}
+
+.parrafo_perfil_resumen {
+  /* ----- parrafo ----- */
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 30px;
+  color: #000000;
+  text-align: center;
+}
+
+/* --------- contenido_habilidades INDEX --------- */
+.titulo_secundario {
+  /* ----- titulo -----  */
+  font-size: 2rem;
+  text-align: center;
+  color: #aa8d4d;
+}
+
+.icono_titulo {
+  /* ----- titulo iconos-----  */
+  font-size: 18px;
+  /*25px*/
+  text-align: center;
+  color: #191919;
+}
+
+.parrafo_habilidades {
+  font-size: 20px;
+  text-align: center;
+  color: #191919;
+}
+
+.icono_g {
+  width: 200px;
+  height: 150px;
+  padding-top: 50px;
+  background-color: transparent;
+  color: #191919;
+  font-size: 50px;
+  border-radius: 50px;
+  /* angulos */
+}
+
+.icono_parrafo {
+  /* ----- parrafo iconos-----  */
+  font-size: 15px;
+  text-align: center;
+  color: #191919;
+}
+
+.icono_g:hover {
+  color: #103c8d;
+}
+
+/* --------- contenido_marcas INDEX --------- */
+.talle {
+  font-size: medium;
+}
+
+.titulo_remera {
+  font-size: 25px;
+  text-align: center;
+  color: #191919;
+}
+
+.parrafo_remera {
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+/* --------- contenido_despegar INDEX --------- */
+.titulo_despegar {
+  color: #ffff;
+}
+
+.despega_parrafo {
+  color: #ffff;
+  font-size: 18px;
+}
+
+/* ------------------------------ PERFIL ------------------------------ */
+/* ------------------------------ PERFIL ------------------------------ */
+.titulo_perfil {
+  /* ---- Facundo ---- */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  margin: 10px;
+  padding: 10px;
+  color: #191919;
+}
+
+.titulo_perfil_subtitulo {
+  /* ---- Quien Soy? ---- */
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: #ba1818;
+  margin-top: 1%;
+  padding: 10px;
+}
+
+.contenido_perfil {
+  /* ---- titulo y parrafo ---- */
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.parrafo_perfil {
+  /* ---- parrafo ---- */
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  color: #191919;
+  margin: 5px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* ------------------------------ SERVICIOS ------------------------------ */
+/* ------------------------------ SERVICIOS ------------------------------ */
+.titulo_servicio {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.parrafo_servicio {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 15px;
+  margin-right: 5px;
+  font-style: italic;
+  font-size: medium;
+}
+
+/* ------------------------------ PRODUCTOS ------------------------------ */
+/* ------------------------------ PRODUCTOS ------------------------------ */
+.titulo_productos_subtitulo {
+  background-color: #aa8d4d;
+  font-size: x-large;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* -------- bucle -------- */
+.titulo_carta:nth-child(1) {
+  color: purple;
+  font-size: 20px;
+}
+
+.titulo_carta:nth-child(2) {
+  color: purple;
+  font-size: 20px;
+}
+
+.titulo_carta:nth-child(3) {
+  color: purple;
+  font-size: 20px;
+}
+
+.titulo_carta:nth-child(4) {
+  color: purple;
+  font-size: 20px;
+}
+
+.titulo_carta:nth-child(5) {
+  color: purple;
+  font-size: 20px;
+}
+
+.titulo_carta:nth-child(6) {
+  color: purple;
+  font-size: 20px;
+}
+
+/* ------------------------------ GALERIA ------------------------------ */
+/* ------------------------------ GALERIA ------------------------------ */
+/* -------- bucle -------- */
+.img1 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img2 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img3 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img4 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img5 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img6 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img7 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img8 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+.img9 {
+  box-shadow: 0 0 5px #000000;
+  width: 70%;
+  height: auto;
+}
+
+/* ------------------------------ CONTACTOS ------------------------------ */
+/* ------------------------------ CONTACTOS ------------------------------ */
+/* ---------------------------- ERROR -------------------------------- */
+/* ---------------------------- ERROR -------------------------------- */
+.titulo_contacto_error {
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+.footer_parrafo_error {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+/* --------- contendio_perfil INDEX --------- */
+.botonQuiero {
+  /* -- caja -- */
+  display: inline-block;
+  background-color: orange;
+  color: #191919;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  width: 220px;
+  height: 50px;
+  /* tamaño del boton */
+  margin-left: 120px;
+  /* z-index: 0; */
+}
+
+/* --------- contenido_habilidades INDEX --------- */
+.boton_hab {
+  display: inline-block;
+  background-color: #aa8d4d;
+  color: #191919;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  width: 120px;
+  height: 40px;
+  /* tamaño del boton */
+}
+
+.icono_grafico .boton_hab {
+  text-decoration: none;
+}
+
+/* --------- contenido_despegar INDEX --------- */
+.boton_desp {
+  display: inline-block;
+  background-color: #ffff;
+  color: #191919;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  width: 150px;
+  height: 40px;
+  /* tamaño del boton */
+}
+
+/* ---------------------------- ERROR -------------------------------- */
+/* ---------------------------- ERROR -------------------------------- */
+.botonVolver {
+  display: inline-block;
+  background-color: #aa8d4d;
+  color: #191919;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  margin-top: 110px;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  width: 120px;
+  height: 40px;
+  /* tamaño del boton */
+}
+
+/* ------------------------- Footer INDEX ------------------------- */
+/* ------------------------- Footer INDEX ------------------------- */
+.footer_index {
+  position: relative;
+  width: 100%;
+  padding: 30px 0 50px;
+  background-color: #dcdcdc;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_index::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #ffff;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.footer_contacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  place-items: center;
+  margin-bottom: 30px;
+}
+
+.titulo_contacto {
+  font-size: 25px;
+  color: #000000;
+}
+
+.footer_parrafo {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 25px;
+  color: #191919;
+}
+
+/* -------- Redes Sociales INDEX -------- */
+.footer_social {
+  display: flex;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+.footer_social .footer_icon {
+  color: #103c8d;
+}
+
+.footer_social .footer_icon:hover {
+  color: #aa8d4d;
+}
+
+.footer_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.footer_picture {
+  margin: 0;
+  opacity: 70%;
+}
+
+.footer_picture img {
+  width: 60%;
+}
+
+.footer_copyright {
+  padding-top: 30px;
+  border-top: 2px solid #aa8d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+}
+
+/* -------- FIN Redes Sociales INDEX -------- */
+/* ------------------------- footer PERFIL ----------------------------- */
+/* ------------------------- footer PERFIL ----------------------------- */
+.footer_perfil {
+  position: relative;
+  width: 100%;
+  padding: 30px 0 50px;
+  background-color: transparent;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* -------- Redes Sociales PERFIL -------- */
+.nav_perfil {
+  display: flex;
+  justify-content: center;
+}
+
+.redes_sociales_perfil {
+  list-style-type: none;
+  position: static;
+  padding: 10px;
+}
+
+.redes_sociales_perfil a {
+  /* Flex */
+  display: flex;
+  display: inline-block;
+}
+
+/* --- ICONOS ----- */
+.icono_whatsapp_perfil {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #aa8d4d;
+  font-size: 30px;
+  border-radius: 40px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.icono_youtube_perfil {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #aa8d4d;
+  font-size: 30px;
+  border-radius: 40px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.icono_instagram_perfil {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #aa8d4d;
+  font-size: 30px;
+  border-radius: 40px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.icono_mail_perfil {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #aa8d4d;
+  font-size: 30px;
+  border-radius: 40px;
+  flex-direction: row;
+  text-align: center;
+  gap: 50px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  z-index: 1000;
+}
+
+.footer_copyright_perfil {
+  padding-top: 30px;
+  border-top: 2px solid #aa8d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+}
+
+/* ------------------------- footer SERVICIO ----------------------------- */
+/* ------------------------- footer SERVICIO ----------------------------- */
+.footer_servicio {
+  position: relative;
+  width: 100%;
+  padding: 30px 0 50px;
+  background-color: transparent;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_copyright_servicios {
+  padding-top: 30px;
+  border-top: 2px solid #aa8d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+}
+
+/* ------------------------- footer PRODUCTOS ----------------------------- */
+/* ------------------------- footer PRODUCTOS ----------------------------- */
+.footer_productos {
+  position: relative;
+  width: 100%;
+  padding: 30px 0 50px;
+  background-color: transparent;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_copyright_productos {
+  padding-top: 30px;
+  border-top: 2px solid #aa8d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+}
+
+/* ------------------------- footer GALERIA ----------------------------- */
+/* ------------------------- footer GALERIA ----------------------------- */
+.footer_galeria {
+  position: relative;
+  width: 100%;
+  padding: 30px 0 50px;
+  background-color: transparent;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_copyright_galeria {
+  padding-top: 30px;
+  border-top: 2px solid #aa8d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+}
+
+/* ------------------------- footer CONTACTO ----------------------------- */
+/* ------------------------- footer CONTACTO ----------------------------- */
+.footer_contactos {
+  position: relative;
+  width: 100%;
+  padding: 30px 0 50px;
+  background-color: transparent;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_copyright_contacto {
+  padding-top: 30px;
+  border-top: 2px solid #aa8d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+}
+
+/* ---------------------------- ERROR -------------------------------- */
+/* ---------------------------- ERROR -------------------------------- */
+.footer_error {
+  position: relative;
+  width: 100%;
+  padding: 0 0 10px;
+  background-color: transparent;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer_contacto_error {
+  display: flex;
+}
+
+.footer_texts_error {
+  /* background-color: $backGround1; */
+  padding: 50px;
+  border-radius: 10%;
+}
+
+.box_error {
+  background-color: #dcdcdc;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
+  border-radius: 5%;
+}
+
+/* -------- Redes Sociales ERROR -------- */
+.footer_social_error {
+  display: flex;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.footer_social_error .footer_icon_error {
+  color: #191919;
+}
+
+.footer_social_error .footer_icon_error:hover {
+  color: #aa8d4d;
+}
+
+.footer_icon_error {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.boton_picture {
+  margin: 0;
+}
+
+/* -------- FIN Redes Sociales ERROR -------- */
+.footer_copyright_error {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  flex-direction: row;
+  text-align: center;
+  gap: 30px;
+}
+
+/* ---------------------------- INDEX -------------------------------- */
+/* ---------------------------- INDEX -------------------------------- */
+/* --------- contenido_despegar INDEX --------- */
+.contenido_despegar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  justify-content: center;
+  background-color: #dcdcdc;
+  width: 100%;
+  position: relative;
+}
+
+.despega {
+  margin: 50px;
+  grid-column: 3/-1;
+  grid-row: 1/-1;
+}
+
+.despega_img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.despega_about {
+  z-index: 100;
+  align-self: center;
+  width: 97%;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 0 6px #000000;
+  background-color: #103c8d;
+  grid-column: 1/4;
+  grid-row: 2/-2;
+  margin-right: 80px;
+}
+
+.despega--right {
+  grid-column: 1/5;
+}
+
+.despega_about--left {
+  grid-column: 3/-1;
+}
+
+/* ------------------------------ GALERIA ------------------------------ */
+/* ------------------------------ GALERIA ------------------------------ */
+/* ---- Grids general ---- */
+.contenedor_galeria_todo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 5fr 0.7fr;
+  grid-auto-columns: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "header_galeria header_galeria header_galeria" "contenedor_galeria contenedor_galeria contenedor_galeria" "footer_galeria footer_galeria footer_galeria";
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.header_galeria {
+  grid-area: header_galeria;
+}
+
+.contenedor_galeria {
+  grid-area: contenedor_galeria;
+}
+
+.footer_galeria {
+  grid-area: footer_galeria;
+}
+
+/* ---- Grids fotos ---- */
+.contenedor_galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 20px 10px;
+  /* ---- gap, espacio entre filas y columnas ---- */
+  grid-auto-flow: row;
+  grid-template-areas: "soymascota nattybrit weirdo" "gameobert quimey soymascota2" "weirdo2 soytaza gino";
+  height: 100%;
+  justify-content: center;
+  padding: 20px;
+  /* ---- para que se separen un poco ---- */
+}
+
+.weirdo {
+  grid-area: weirdo;
+  background-image: url(../imagenes/imagenes_galeria/weirdo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.weirdo2 {
+  grid-area: weirdo2;
+  background-image: url(../imagenes/imagenes_galeria/weirdo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nattybrit {
+  grid-area: nattybrit;
+  background-image: url(../imagenes/imagenes_galeria/nattybrit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.soytaza {
+  grid-area: soytaza;
+  background-image: url(../imagenes/imagenes_galeria/soytaza.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.soymascota {
+  grid-area: soymascota;
+  background-image: url(../imagenes/imagenes_galeria/soymascota.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.soymascota2 {
+  grid-area: soymascota2;
+  background-image: url(../imagenes/imagenes_galeria/soymascota2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quimey {
+  grid-area: quimey;
+  background-image: url(../imagenes/imagenes_galeria/quimey.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gameobert {
+  grid-area: gameobert;
+  background-image: url(../imagenes/imagenes_galeria/gameobert.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gino {
+  grid-area: gino;
+  background-image: url(../imagenes/imagenes_galeria/gino.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ---- Grids END ---- */
+/* ------------------------- header INDEX ----------------------------- */
+/* ------------------------- header INDEX ----------------------------- */
+.header_index {
+  background-color: transparent;
+  width: 100%;
+  right: 0;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* -- Logo y navegacion en cada punta -- */
+  align-items: center;
+  /* -- Alinear -- */
+}
+
+.header_index img {
+  background-color: transparent;
+  line-height: 150px;
+  margin: auto;
+}
+
+/* ------------------------- header PERFIL ----------------------------- */
+/* ------------------------- header PERFIL ----------------------------- */
+.header_perfil {
+  background-color: transparent;
+  width: 100%;
+  right: 0;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* -- Logo y navegacion en cada punta -- */
+  align-items: center;
+  /* -- Alinear -- */
+}
+
+.header_perfil img {
+  background-color: transparent;
+  line-height: 150px;
+  margin: auto;
+}
+
+/* ------------------------- header SERVICIO ----------------------------- */
+/* ------------------------- header SERVICIO ----------------------------- */
+.header_servicio {
+  background-color: transparent;
+  width: 100%;
+  right: 0;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* -- Logo y navegacion en cada punta -- */
+  align-items: center;
+  /* -- Alinear -- */
+}
+
+.header_servicio img {
+  background-color: transparent;
+  line-height: 150px;
+  margin: auto;
+}
+
+/* ------------------------- header PRODUCTOS ----------------------------- */
+/* ------------------------- header PRODUCTOS ----------------------------- */
+.header_productos {
+  background-color: transparent;
+  width: 100%;
+  right: 0;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* -- Logo y navegacion en cada punta -- */
+  align-items: center;
+  /* -- Alinear -- */
+}
+
+.header_productos img {
+  background-color: transparent;
+  line-height: 150px;
+  margin: auto;
+}
+
+/* ------------------------- header GALERIA ----------------------------- */
+/* ------------------------- header GALERIA ----------------------------- */
+.header_galeria {
+  background-color: transparent;
+  width: 100%;
+  right: 0;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* -- Logo y navegacion en cada punta -- */
+  align-items: center;
+  /* -- Alinear -- */
+}
+
+.header_galeria img {
+  background-color: transparent;
+  line-height: 150px;
+  margin: auto;
+}
+
+/* ------------------------- header CONTACTO ----------------------------- */
+/* ------------------------- header CONTACTO ----------------------------- */
+.header_contacto {
+  background-color: transparent;
+  width: 100%;
+  right: 0;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* -- Logo y navegacion en cada punta -- */
+  align-items: center;
+  /* -- Alinear -- */
+}
+
+.header_contacto img {
+  background-color: transparent;
+  line-height: 150px;
+  margin: auto;
+}
+
+/* ------------------------- header ERROR ----------------------------- */
+/* ------------------------- header ERROR ----------------------------- */
+.header_error {
+  background-color: transparent;
+  width: 100%;
+  right: 0;
+  margin: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* -- Logo y navegacion en cada punta -- */
+  align-items: center;
+  /* -- Alinear -- */
+}
+
+.header_error img {
+  background-color: transparent;
+  line-height: 150px;
+  margin: auto;
+}
+
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+.navegacion {
+  width: 50%;
+  /* Flex */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navegacion .menu li {
+  /* Flex */
+  display: inline-block;
+  /* -- para que esten uno al lado del otro --*/
+  position: relative;
+  /* -- para que se bajen los elementos pero con lugar --*/
+}
+
+.navegacion .menu a {
+  color: #000000;
+  /* -- Color de Letras Link --*/
+  text-align: center;
+  /* -- alinear horizontalmente --*/
+  text-decoration: none;
+  /* -- para sacar la linea --*/
+  padding: 10px;
+  /* Flex */
+  display: block;
+  border-radius: 20px;
+  flex-grow: 1;
+}
+
+li a:hover {
+  background-color: #dcdcdc;
+  color: #000000;
+}
+
+/* -------------------------- PERFIL -------------------------- */
+/* -------------------------- PERFIL -------------------------- */
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+@media screen and (max-width: 768px) {
+  /* -- Tablet 768 -- */
+  .menu li {
+    display: inline-block;
+  }
+  .carrousel_index {
+    padding: 0 0;
+  }
+  .hero {
+    margin: 20px;
+    margin-left: 50px;
+  }
+  .contenido_perfil_index {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    place-items: center;
+    gap: 10px;
+  }
+  .titulo_perfil_index {
+    font-size: 1rem;
+    color: #191919;
+  }
+  .botonCompra {
+    margin-left: 40px;
+  }
+  /*-- Marcas MOBILIE --*/
+  .contenido_marcas_index {
+    background-color: #dcdcdc;
+  }
+  .section2_index {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  .talle {
+    font-size: small;
+    margin-top: 30px;
+  }
+  .titulo_remera {
+    font-size: 20px;
+    text-align: center;
+    color: #191919;
+  }
+  .parrafo_remera {
+    font-size: 15px;
+    text-align: center;
+    color: #191919;
+  }
+  .nav-tabs {
+    margin-top: 100px;
+  }
+  /*-- footer MOBILIE --*/
+  .footer_index {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* -- Cel 375 -- */
+  /*-- Habilidades MOBILIE --*/
+  .conjunto_iconos {
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+  }
+  .container_hab {
+    justify-content: center;
+  }
+  /*-- Marcas MOBILIE --*/
+  .section2_index {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+  }
+  .talle {
+    font-size: small;
+    margin-top: 30px;
+  }
+  .titulo_remera {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+  }
+  .parrafo_remera {
+    font-size: 15px;
+    text-align: center;
+    color: #191919;
+  }
+  .nav-tabs {
+    margin-top: 100px;
+  }
+  /*-- Despegar MOBILIE --*/
+  .despega_parrafo {
+    font-size: 18px;
+    color: tomato;
+  }
+}
+
+/* ------------------------------ PRODUCTOS ------------------------------ */
+/* ------------------------------ PRODUCTOS ------------------------------ */
+@media screen and (max-widht: 600px) {
+  .caja_productos_solo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ---------------------------- INDEX -------------------------------- */
+/* ---------------------------- INDEX -------------------------------- */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  padding: 50px 0;
+  margin: 0 0;
+  overflow: hidden;
+}
+
+.contenedor_index {
+  background-color: transparent;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* --------- main INDEX --------- */
+.main_index {
+  max-width: 1200px;
+  padding-top: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 0 0 1100px;
+}
+
+.imagen_firma {
+  /* -- Cubix -- */
+  margin-left: 200px;
+  position: absolute;
+  margin-top: 110px;
+  /* z-index: 1000 */
+}
+
+.carrousel_index {
+  position: relative;
+}
+
+.carouselExampleIndicators {
+  position: relative;
+}
+
+/* --------- contendio_perfil INDEX --------- */
+.hero {
+  height: 100vh;
+  min-width: 500px;
+  position: relative;
+  padding: 0px;
+  z-index: -1;
+  margin-right: 0;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #dcdcdc;
+  z-index: -1;
+  clip-path: polygon(0 100%, 100% 100%, 100% 0%);
+}
+
+.contenido_perfil_index {
+  /* ----- Bloque Perfil -----  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+}
+
+.imagen_facu_perfil_resumen {
+  /* ----- imagen -----  */
+  border-radius: 25%;
+  object-fit: cover;
+  box-shadow: 0 0 10px black;
+}
+
+/* --------- contenido_habilidades INDEX --------- */
+.contenido_habilidades_index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px solid #aa8d4d;
+  background-color: #dcdcdc;
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.container_hab {
+  display: flex;
+  flex-direction: column;
+}
+
+.conjunto_iconos {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+.icono_grafico {
+  margin: 25px;
+  background-color: #ffff;
+  padding: 10px;
+  border-top: 5px solid #103c8d;
+  box-shadow: 0 0 3px #000000;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --------- contenido_marcas INDEX --------- */
+.contenido_marcas_index {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: transparent;
+}
+
+.caritas {
+  position: relative;
+  margin-top: -100px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.section2_index {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-bottom: 2px solid #aa8d4d;
+}
+
+.align-items-center {
+  margin-left: 30px;
+}
+
+.rem {
+  box-shadow: 0 0 3px black;
+}
+
+/* --------- contenido_despegar INDEX --------- */
+.contenido_despegar {
+  margin-bottom: 50px;
+}
+
+/* -------------------------- PERFIL -------------------------- */
+/* -------------------------- PERFIL -------------------------- */
+.seccion_perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.foto_perfil img {
+  /* ---- Foto ---- */
+  display: block;
+  margin: auto;
+  position: relative;
+  background-color: transparent;
+  border-radius: 1000%;
+  border: 10px;
+}
+
+/* -------------------------- SERVICIO -------------------------- */
+/* -------------------------- SERVICIO -------------------------- */
+.servicio_1y2 {
+  display: flex;
+}
+
+.servicio_3y4 {
+  display: flex;
+}
+
+.contenido_servicio {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.servicio_individual {
+  display: flex;
+  margin: 30px;
+}
+
+.contendio_parrafo_servicio {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.foto_servicios {
+  width: 200px;
+  margin-left: 10px;
+  transition: all 1s;
+  filter: grayscale(100%);
+}
+
+.foto_servicios:hover {
+  filter: grayscale(0%);
+}
+
+/* -------------------------- PRODUCTOS -------------------------- */
+/* -------------------------- PRODUCTOS -------------------------- */
+/* -------- cajas seccion (grande) -------- */
+.seccion_productos {
+  display: flex;
+  /* --uno al lado del otro-- */
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+/* ------ cajas contendio (media) ------ */
+.caja_productos {
+  display: flex;
+  /* --uno al lado del otro-- */
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.caja_productos_solo {
+  display: flex;
+  justify-content: center;
+}
+
+/* -------- cajas indiv -------- */
+.caja_p {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px;
+}
+
+/* ---------------------- CONTACTOS ---------------------- */
+/* ---------------------- CONTACTOS ---------------------- */
+.contenedor_contacto {
+  background-image: url(../imagenes/imagenes_index/foto_facu_fondoo.png);
+  background-repeat: no-repeat;
+}
+
+.needs-validation {
+  margin: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+/* ---------------------------- ERROR -------------------------------- */
+/* ---------------------------- ERROR -------------------------------- */
+.contenedor_error {
+  background-image: url(../imagenes/imagenes_error/error404.png);
+  background-repeat: no-repeat;
+}

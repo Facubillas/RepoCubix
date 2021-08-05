@@ -1,0 +1,205 @@
+// TIPOGRAFIAS //
+// cargar todas las fuentes //
+
+/* ------------------------------ INDEX ------------------------------ */
+/* ------------------------------ INDEX ------------------------------ */
+
+.navegacion{
+    .menu{
+        font-family: 'Montserrat', sans-serif;
+        font-size: small; /* -- tamaño del Link --*/
+    }
+}
+
+
+/* --------- contenido_perfil INDEX --------- */
+
+.titulo_perfil_index{ /* ----- titulo -----  */
+    font-size: $textSizeB;
+    text-align: center;
+    padding: 20px;
+    color: $Color4A;
+}
+
+.parrafo_perfil_resumen{ /* ----- parrafo ----- */
+    font-size: $textSizeA;
+    margin: 10px 0;
+    padding: 30px;
+    color: $ColorN;
+    text-align: center;
+}
+
+/* --------- contenido_habilidades INDEX --------- */
+
+.titulo_secundario{  /* ----- titulo -----  */
+    font-size: $textSizeB;
+    text-align: center;
+    color: $Color3M;
+}
+
+.icono_titulo{ /* ----- titulo iconos-----  */
+    font-size: $textSize1;   /*25px*/
+    text-align: center;
+    color: $Color1N;
+}
+
+.parrafo_habilidades{
+    font-size: $textSize2;
+    text-align: center;
+    color: $Color1N;
+}
+
+.icono_g{
+    width: 200px;
+    height: 150px;
+    padding-top: 50px;
+    background-color: $backGround1;
+    color: $Color1N; 
+    font-size: 50px;
+    border-radius: 50px; /* angulos */
+}
+
+  .icono_parrafo{ /* ----- parrafo iconos-----  */
+    font-size: $textSize0;
+    text-align: center;
+    color: $Color1N;
+}
+
+.icono_g:hover {
+    color: $Color4A;
+}
+
+
+/* --------- contenido_marcas INDEX --------- */
+
+.talle{
+    font-size: medium;
+}
+
+.titulo_remera{
+    font-size: $textSize3;
+    text-align: center;
+    color: $Color1N;
+}
+
+.parrafo_remera{
+    font-size: $textSize1;
+    text-align: center;
+    color: $ColorN;
+}
+
+
+/* --------- contenido_despegar INDEX --------- */
+
+.titulo_despegar{
+    color: $ColorB;
+}
+
+.despega_parrafo{
+    color: $ColorB;
+    font-size: $textSize1;
+}
+
+/* ------------------------------ PERFIL ------------------------------ */
+/* ------------------------------ PERFIL ------------------------------ */
+
+.titulo_perfil{   /* ---- Facundo ---- */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 10px;
+    color: $Color1N;
+}
+
+  .titulo_perfil_subtitulo{  /* ---- Quien Soy? ---- */
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #ba1818;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+  .contenido_perfil{   /* ---- titulo y parrafo ---- */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: $textSize2;
+}
+
+  .parrafo_perfil{ /* ---- parrafo ---- */
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: $Color1N;
+    margin: 5px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/* ------------------------------ SERVICIOS ------------------------------ */
+/* ------------------------------ SERVICIOS ------------------------------ */
+
+.titulo_servicio{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: $textSizeA;
+}
+
+.parrafo_servicio{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 15px;
+    margin-right: 5px;
+    font-style: italic;
+    font-size: medium;
+}
+
+/* ------------------------------ PRODUCTOS ------------------------------ */
+/* ------------------------------ PRODUCTOS ------------------------------ */
+
+.titulo_productos_subtitulo {
+    background-color: $Color3M;
+    font-size: x-large;
+    margin: 10px;
+    padding: 10px; 
+}
+
+/* -------- bucle -------- */
+@for $i from 1 to 7 {
+    .titulo_carta:nth-child(#{$i}){
+        color: purple;
+        font-size: $textSize2;
+    }
+}
+
+/* ------------------------------ GALERIA ------------------------------ */
+/* ------------------------------ GALERIA ------------------------------ */
+
+/* -------- bucle -------- */
+@for $i from 1 through 9 {
+    .img#{$i} {
+        box-shadow: 0 0 5px $ColorN; width: 70%; height: auto;
+        
+    }
+}
+
+/* ------------------------------ CONTACTOS ------------------------------ */
+/* ------------------------------ CONTACTOS ------------------------------ */
+
+
+
+
+/* ---------------------------- ERROR -------------------------------- */
+/* ---------------------------- ERROR -------------------------------- */
+
+.titulo_contacto_error{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.footer_parrafo_error{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}

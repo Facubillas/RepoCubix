@@ -1,0 +1,332 @@
+// Variables //
+
+$backGround1: transparent;
+$backGround2: orange;
+
+$Color1N: #191919;
+$Color2G: #dcdcdc;
+$Color3M: #aa8d4d;
+$Color4A: #103c8d;
+
+$ColorB: #ffff;
+$ColorN: #000000;
+
+$textSize0: 15px;
+$textSize1: 18px;
+$textSize2: 20px;
+$textSize3: 25px;
+
+$textSizeA: 1rem;
+$textSizeB: 2rem;
+
+
+// Imports //
+@import "_animaciones";
+@import "_base";
+@import "_tipografias";
+@import "_utilidades";   //
+
+@import "_bot";
+
+@import "_footer";
+@import "_forms";  //
+@import "_grid";
+@import "_header";
+@import "_navbar";
+
+@import "_funciones";  //
+@import "_mixins";     //
+
+@import "_bootstrap";
+@import "_jquery";
+
+
+/* ---------------------------- INDEX -------------------------------- */
+/* ---------------------------- INDEX -------------------------------- */
+
+.container{  
+    width: 90%;  
+    max-width: 1200px;    
+    padding: 50px 0;  
+    margin: 0 0;
+    overflow: hidden;
+}
+
+.contenedor_index{
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+/* --------- main INDEX --------- */
+
+.main_index{
+    max-width: 1200px;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 0 1100px;
+}
+
+  .imagen_firma {  /* -- Cubix -- */
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 110px;
+    /* z-index: 1000 */
+}
+
+.carrousel_index{
+    position: relative;
+}
+
+.carouselExampleIndicators{
+    position: relative;
+}
+
+/* --------- contendio_perfil INDEX --------- */
+
+.hero{
+    height: 100vh;
+    min-width: 500px;
+    position: relative; 
+    padding: 0px;
+    z-index: -1; 
+    margin-right: 0;
+}
+
+.hero::after{ 
+    content: "";
+    display: block;
+    position: absolute;
+    height: 400px; 
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: $Color2G; 
+    z-index: -1;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0%);
+}
+
+  .contenido_perfil_index{  /* ----- Bloque Perfil -----  */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+    
+}
+
+  .imagen_facu_perfil_resumen{ /* ----- imagen -----  */
+    border-radius: 25%;
+    object-fit: cover;
+    box-shadow: 0 0 10px black;
+}
+
+
+/* --------- contenido_habilidades INDEX --------- */
+
+.contenido_habilidades_index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid $Color3M;
+    background-color: $Color2G;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+.container_hab{
+    display: flex;
+    flex-direction: column;
+}
+
+.conjunto_iconos{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.icono_grafico{
+    margin: 25px;
+    background-color: $ColorB;
+    padding: 10px;
+    border-top: 5px solid $Color4A;
+    box-shadow: 0 0 3px $ColorN;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------- contenido_marcas INDEX --------- */
+
+.contenido_marcas_index{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: $backGround1;
+}
+
+.caritas{
+    position: relative;
+    margin-top: -100px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.section2_index{
+    display: flex;
+    flex-direction: column;
+    background-color: $backGround1;
+    border-bottom: 2px solid $Color3M;
+    
+}
+
+.align-items-center{
+    margin-left: 30px;
+}
+
+.rem{
+    box-shadow: 0 0 3px black;
+}
+
+/* --------- contenido_despegar INDEX --------- */
+
+.contenido_despegar{
+    
+    margin-bottom: 50px;
+}
+
+
+
+/* -------------------------- PERFIL -------------------------- */
+/* -------------------------- PERFIL -------------------------- */
+
+.seccion_perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    background-color: $backGround1;
+}
+
+  .foto_perfil img{ /* ---- Foto ---- */
+    display: block;
+    margin: auto;
+    position: relative;
+    background-color: transparent;
+    border-radius: 1000%;
+    border: 10px; 
+}
+
+/* -------------------------- SERVICIO -------------------------- */
+/* -------------------------- SERVICIO -------------------------- */
+
+.servicio_1y2{
+    display: flex;
+}
+
+.servicio_3y4{
+    display: flex;
+}
+
+.contenido_servicio{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.servicio_individual{
+    display: flex;
+    margin: 30px;
+}
+
+.contendio_parrafo_servicio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.foto_servicios{
+    width: 200px;
+    margin-left: 10px;
+    transition: all 1s;
+    filter: grayscale(100%);
+}
+
+.foto_servicios:hover {
+    filter: grayscale(0%);
+}
+
+
+/* -------------------------- PRODUCTOS -------------------------- */
+/* -------------------------- PRODUCTOS -------------------------- */
+
+/* -------- cajas seccion (grande) -------- */
+
+.seccion_productos{
+    display: flex; /* --uno al lado del otro-- */
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+/* ------ cajas contendio (media) ------ */
+
+.caja_productos{
+    display: flex; /* --uno al lado del otro-- */
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.caja_productos_solo{
+    display: flex;
+    justify-content: center;
+}
+
+/* -------- cajas indiv -------- */
+
+.caja_p{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px;
+}
+
+/* ---------------------- CONTACTOS ---------------------- */
+/* ---------------------- CONTACTOS ---------------------- */
+
+.contenedor_contacto{
+    background-image: url(../imagenes/imagenes_index/foto_facu_fondoo.png);
+    background-repeat: no-repeat;
+    
+}
+
+.needs-validation{
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+
+/* ---------------------------- ERROR -------------------------------- */
+/* ---------------------------- ERROR -------------------------------- */
+
+.contenedor_error{
+    background-image: url(../imagenes/imagenes_error/error404.png);
+    background-repeat: no-repeat;
+}

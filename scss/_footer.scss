@@ -1,0 +1,371 @@
+// FOOTER //
+
+/* ------------------------- Footer INDEX ------------------------- */
+/* ------------------------- Footer INDEX ------------------------- */
+
+.footer_index {
+    position: relative;
+    width: 100%;
+    padding: 30px 0 50px;
+    background-color: $Color2G;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_index::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: $ColorB;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.footer_contacto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    place-items: center;
+    margin-bottom: 30px;
+}
+
+.titulo_contacto{
+    font-size: $textSize3;
+    color: $ColorN;
+}
+
+.footer_parrafo{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: $textSize3;
+    color: $Color1N;
+}
+
+/* -------- Redes Sociales INDEX -------- */
+
+.footer_social{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.footer_social .footer_icon{
+    color: $Color4A;
+}
+
+.footer_social .footer_icon:hover{
+    color: $Color3M;
+}
+
+.footer_icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.footer_picture{
+    margin: 0;
+    opacity: 70%;
+}
+
+.footer_picture img{
+    width: 60%;
+}
+
+.footer_copyright{
+    padding-top: 30px;
+    border-top: 2px solid $Color3M;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;                      
+    flex-direction: row;                   
+    text-align: center;                    
+    gap: 30px;
+}
+
+/* -------- FIN Redes Sociales INDEX -------- */
+
+
+/* ------------------------- footer PERFIL ----------------------------- */
+/* ------------------------- footer PERFIL ----------------------------- */
+
+.footer_perfil{
+    position: relative;
+    width: 100%;
+    padding: 30px 0 50px;
+    background-color: $backGround1;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;                   
+    justify-content: center;
+}
+
+/* -------- Redes Sociales PERFIL -------- */
+
+.nav_perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.redes_sociales_perfil{
+    list-style-type: none;
+    position: static;
+    padding: 10px;
+}
+
+.redes_sociales_perfil a{
+    /* Flex */
+    display: flex;
+    display: inline-block;
+}
+
+/* --- ICONOS ----- */
+
+.icono_whatsapp_perfil{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: $Color3M;
+    font-size: 30px;
+    border-radius: 40px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.icono_youtube_perfil{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: $Color3M;
+    font-size: 30px;
+    border-radius: 40px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.icono_instagram_perfil{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: $Color3M;
+    font-size: 30px;
+    border-radius: 40px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.icono_mail_perfil{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: $Color3M;
+    font-size: 30px;
+    border-radius: 40px;
+    flex-direction: row;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    z-index: 1000;
+}
+
+.footer_copyright_perfil{
+    padding-top: 30px;
+    border-top: 2px solid $Color3M;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;                      
+    flex-direction: row;                   
+    text-align: center;                    
+    gap: 30px;
+}
+
+/* ------------------------- footer SERVICIO ----------------------------- */
+/* ------------------------- footer SERVICIO ----------------------------- */
+
+.footer_servicio {
+    position: relative;
+    width: 100%;
+    padding: 30px 0 50px;
+    background-color: $backGround1;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_copyright_servicios{
+    padding-top: 30px;
+    border-top: 2px solid $Color3M;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;                      
+    flex-direction: row;                   
+    text-align: center;                    
+    gap: 30px;
+}
+
+/* ------------------------- footer PRODUCTOS ----------------------------- */
+/* ------------------------- footer PRODUCTOS ----------------------------- */
+
+.footer_productos {
+    position: relative;
+    width: 100%;
+    padding: 30px 0 50px;
+    background-color: $backGround1;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_copyright_productos{
+    padding-top: 30px;
+    border-top: 2px solid $Color3M;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;                      
+    flex-direction: row;                   
+    text-align: center;                    
+    gap: 30px;
+}
+
+
+/* ------------------------- footer GALERIA ----------------------------- */
+/* ------------------------- footer GALERIA ----------------------------- */
+
+.footer_galeria {
+    position: relative;
+    width: 100%;
+    padding: 30px 0 50px;
+    background-color: $backGround1;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_copyright_galeria{
+    padding-top: 30px;
+    border-top: 2px solid $Color3M;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;                      
+    flex-direction: row;                   
+    text-align: center;                    
+    gap: 30px;
+}
+
+
+/* ------------------------- footer CONTACTO ----------------------------- */
+/* ------------------------- footer CONTACTO ----------------------------- */
+
+.footer_contactos {
+    position: relative;
+    width: 100%;
+    padding: 30px 0 50px;
+    background-color: $backGround1;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_copyright_contacto{
+    padding-top: 30px;
+    border-top: 2px solid $Color3M;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;                      
+    flex-direction: row;                   
+    text-align: center;                    
+    gap: 30px;
+}
+
+/* ---------------------------- ERROR -------------------------------- */
+/* ---------------------------- ERROR -------------------------------- */
+
+.footer_error {
+    position: relative;
+    width: 100%;
+    padding: 0 0 10px;
+    background-color: $backGround1;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_contacto_error{
+    display: flex;
+}
+
+
+.footer_texts_error{
+    /* background-color: $backGround1; */
+    padding: 50px;
+    border-radius: 10%;
+}
+
+.box_error{
+    background-color: $Color2G;
+    box-shadow: 0 0 10px black;
+    padding: 40px;
+    border-radius: 5%;
+}
+
+/* -------- Redes Sociales ERROR -------- */
+
+.footer_social_error{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.footer_social_error .footer_icon_error{
+    color: $Color1N;
+}
+
+.footer_social_error .footer_icon_error:hover{
+    color: $Color3M;
+}
+
+.footer_icon_error{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.boton_picture{
+    margin: 0;
+}
+
+/* -------- FIN Redes Sociales ERROR -------- */
+
+
+.footer_copyright_error{
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: small;                      
+    flex-direction: row;                   
+    text-align: center;                    
+    gap: 30px;
+}
